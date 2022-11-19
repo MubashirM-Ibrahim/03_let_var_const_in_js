@@ -1,0 +1,74 @@
+// This Chapter pdf in https://github.com/MubashirM-Ibrahim/02_Variables_In_Js
+
+
+console.log("let vat and const Difference");
+
+
+// // var scope is global and we changed it everywhere... 
+// But let and const is block scope variable ..
+
+var a = 30 ;
+
+{
+
+    var a = "Ibrahim" ; 
+
+
+}
+console.log(a);
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// let is a block scope variable ... and we access it in own block  .... 
+
+// let b = "Harry" ;
+
+{
+
+    let b = "Mubashir" ;
+    // let b = "Ibrahim" ;   //Error !!!  We dont re initialize let and const . 
+        b = "Ibrahim" ; 
+
+
+    console.log(b);
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+// const is a constant variable and we dont changed it or rewrite .
+
+
+// const myName = "Mubashir" ;
+// const surName ;   !!!! Error       
+
+const author = "Mubashir M.Ibrahim" ;
+// author = "Hassan" ;   //Error !!!!
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// Best Practice ...
+//Data types . 
+
+
+
+let ab = 45 ; 
+let b = "Mubashir" ;
+let c = true ; 
+let d = null ; 
+let e = undefined ;  
+
+console.log(typeof ab);
